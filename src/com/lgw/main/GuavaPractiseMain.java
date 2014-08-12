@@ -12,11 +12,11 @@ public class GuavaPractiseMain {
 
 	public static void main(String[] args) {
 		/** Joiner”√∑® Start **/
-		ArrayList<String> strings = Lists.newArrayList();
-		strings.add("1");
-		strings.add("2");
-		strings.add("3");
-		strings.add("4");
+		ArrayList<String> strings = Lists.newArrayList("1a","2b","3c","4d");
+//		strings.add("1");
+//		strings.add("2");
+//		strings.add("3");
+//		strings.add("4");
 		String joinerString = JoinerUsage.joinerBuildString(strings, "&");
 		String commonString = JoinerUsage.commonBuildString(strings, "&");
 		System.out.println(joinerString);
